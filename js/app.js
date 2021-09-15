@@ -5,7 +5,7 @@ const canvasElement = document.getElementById('canvas');
 const webcam = new Webcam(webcamElement, 'user', canvasElement);
 
 
-/* 
+
 $("#webcam-switch").change(function () {
     if(this.checked){
         $('.md-modal').addClass('md-show');
@@ -23,7 +23,7 @@ $("#webcam-switch").change(function () {
         webcam.stop();
         console.log("webcam stopped");
     }        
-}); */
+}); 
 
 $('#cameraFlip').click(function() {
     webcam.flip();
